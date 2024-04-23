@@ -8,6 +8,10 @@ dataset from Kaggle.
 
 ## Contributions
 
+- Jia Qing - Implemented the EDA, regression, and classification pipelines.
+- Zhenxi   - Suggested the use of PCA and helped to find bugs.
+- Han Hua  - Assisted in brainstorming ideas.
+
 ## Problem Definition
 
 - How might we cluster players into different "skill tiers" using metrics
@@ -28,7 +32,7 @@ assist us later on. We also establish the target variables `winRateAlt` and
 ### [Regression](https://github.com/anAcc22/SC1015_grp_proj/blob/main/regression.ipynb)
 
 This notebook attempts to predict `winRateAlt` and `kdRatioAlt` using
-regression techniques like Linear Regression, k-Neighbors Regression, and
+regression techniques like Linear Regression, K-Neighbors Regression, and
 several others.
 
 ### [Principal Component Analysis](https://github.com/anAcc22/SC1015_grp_proj/blob/main/pca.ipynb)
@@ -43,7 +47,7 @@ hyperparameters.
 
 ### [Clustering](https://github.com/anAcc22/SC1015_grp_proj/blob/main/clustering.ipynb)
 
-Using k-means clustering, we identified four clusters that represent different
+Using K-Means Clustering, we identified four clusters that represent different
 skill tiers. We then proceed to use classification techniques such as Logistic
 Regression, Support Vector Classifier, and Random Forest. The performance
 metric used was the macro-averaged F1 score. We conclude the notebook using
@@ -59,9 +63,9 @@ no avail, we weren't able to observe any significant trends.
 
 ## Key Takeaways
 
-- In the regression context, lasso regression performed the best, whereas
-in the classification context, support vector classifier triumphed the others,
-although logistic regression was a close second.
+- In the regression context, Lasso Regression performed the best, whereas
+in the classification context, Support Vector Classifier triumphed the others,
+although Logistic Regression was a close second.
 
 - The Permutation Feature Importance revealed that `level`, `gamesPlayed`,
 and `hitRate` were the top three most important features. The first two suggest
