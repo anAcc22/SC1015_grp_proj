@@ -63,8 +63,10 @@ no avail, we weren't able to observe any significant trends.
 
 ## Key Takeaways
 
-- In the regression context, Lasso Regression performed the best, whereas
-in the classification context, Support Vector Classifier triumphed the others,
+- In the regression context, Random Forest was the best for predicting 
+`kdRatioAlt`, while Gradient Boosting was best for predicting `winRateAlt`.
+
+- In the classification context, Support Vector Classifier triumphed the others,
 although Logistic Regression was a close second.
 
 - The Permutation Feature Importance revealed that `level`, `gamesPlayed`,
